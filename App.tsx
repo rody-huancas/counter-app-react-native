@@ -1,6 +1,6 @@
 import {SafeAreaView} from 'react-native';
 import {PaperProvider} from 'react-native-paper';
-import { PositionScreen } from './src/presentation/screens/PositionScreen';
+import { FlexDirectionScreen } from './src/presentation/screens/FlexDirectionScreen';
 
 import IonIcon from 'react-native-vector-icons/Ionicons';
 
@@ -11,7 +11,7 @@ const App = () => {
         icon: props => <IonIcon {...props} />,
       }}>
       <SafeAreaView style={{flex: 1}}>
-        <PositionScreen />
+        <FlexDirectionScreen />
       </SafeAreaView>
     </PaperProvider>
   );
